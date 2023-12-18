@@ -172,6 +172,29 @@ footer p span {
   height: 40px;
   padding: 0.8em 0.5em;
 }
+/* checkout page */
+.checkoutForm input, .checkoutForm select{
+    height:40px;
+} 
+.checkout__cart{
+    background: #ffffff;
+    padding: 2em 1.5em;
+    box-shadow: 0 0 3px 0 #bbb;
+    color: #000;
+    border-radius: 5px;
+}
+.checkout__cart h4 {
+    border-top: 1px solid hsla(0,0%,87%,.253);
+    padding-top: 20px;
+}
+.checkout__cart h6 {
+    margin-bottom: 20px;
+}
+.checkout__cart h6, h4 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 
 @media (max-width: 1024px) {
   .mblMenu {
