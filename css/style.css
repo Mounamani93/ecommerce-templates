@@ -101,3 +101,88 @@ footer p, footer a, footer p span{
     color:#fff;text-decoration:none;
 
 }
+
+/* Shop Page CSS */
+
+.searchIcon{
+    top: 20%;
+    right: 3%;
+}
+
+/* Cart Page CSS */
+
+
+.productCart{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.msmCartProductPrice {
+    color: #923537;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.msmCartProductName {
+    color: #000;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.msmCartProductImage img {
+    width: 100px;
+}
+.msmCartCloseSec{    
+    position: absolute;
+        top: -8px;
+        right: -8px
+    }
+    .msmCartCloseSec p i{
+    font-size: 18px;
+        font-weight: bolder;
+    }
+    .msmCartButtonDetailSec{
+    display: flex;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .msmCartButton{
+        width:110px;
+    }
+    #cartSection .quantityVal{
+        height:40px;
+    }
+    #cartSection .minusBtn{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height:40px;
+        padding:0.8em 0.5em;
+    }
+    #cartSection .plusBtn{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height:40px;
+        padding:0.8em 0.5em;
+    }
+
+    @media (max-width: 475px){
+.msmCartProductImage img {
+    width: 65px;
+}.msmCartButton{
+    width:80px;
+}
+#cartSection .quantityVal,#cartSection .plusBtn,#cartSection .minusBtn{
+    height:25px;
+    padding:0.5em 0.3em;
+}
+.msmCartProductNameSec p,.msmCartProductNameSec p span {
+    font-size:12px
+}
+    }
